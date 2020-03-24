@@ -1,0 +1,270 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+html, body {
+    height:100%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.container {
+    min-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: calc(100% - 240px);
+    background-image: url('https://web.archive.org/web/20140226220919im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg');
+    background-position:center bottom;
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 span {
+    margin: 0px auto;
+    width: 90%;
+    height: 95px;
+    display: block;
+    background-image: url('https://web.archive.org/web/20140226220919im_/http://images.apple.com/home/images/your_verse_title_small_2x.png');
+    background-size: cover;
+    
+}
+
+h2 img {
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+}
+
+h3 span {
+    margin: 0px auto;
+    width: 960px;
+    height: 30px;
+    display: block;
+    background-image: url('h3.png');
+    background-size: cover;
+}
+h3 span:hover {
+    margin: 0px auto;
+    width: 960px;
+    height: 60px;
+    display: block;
+    background-image: url('h3.png');
+    background-size: cover;
+    background-position: -0px -32px;
+    background-repeat: no-repeat;
+}
+
+
+.item {
+    width: 25%;
+    height: 200px;
+}
+
+.ft1{
+    width: 960px;
+    margin: 0px auto;
+    height: 40px;
+}
+
+
+.main ul {
+    width: 845px;
+    margin: 80px auto 30px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    background-image: linear-gradient(#8a8a8a,#6e6e6e 50%,#5e5e5e 50%,#787878);
+}
+
+.main ul li {
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    /* background-color: rgb(206, 206, 206); */
+    border: 1px solid #5d5d5d;
+    height: 36px;
+}
+
+.li1 {
+    
+    background-image: url('globalnav_text.svg');
+    background-position: 50% -0px;
+    border-radius: 4px 0px 0px 4px;
+    
+}
+
+.li2 {
+    background-image: url('globalnav_text.svg');
+    background-position: 50% -28px;
+}
+.li3 {
+    background-image: url('globalnav_text.svg');
+    background-position: 50% -58px;
+}
+.li4 {
+    background-image: url('globalnav_text.svg');
+    background-position: 50% -88px;
+}
+.li5 {
+    background-image: url('globalnav_text.svg');
+    background-position: 50% -118px;
+}
+.li6 {
+    background-image: url('globalnav_text.svg');
+    background-position: 50% -148px;
+}
+
+.li7 {
+    background-image: url('globalnav_text.svg');
+    background-position: 50% -178px;
+}
+
+.li8 {
+    background-image: url('globalnav_text.svg');
+    background-position: 50% -208px;
+}
+
+.li9 {
+    border-radius: 0px 4px 4px 0px;
+    position: relative;
+}
+
+input {
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 7px 10px;
+    width: 80px;
+    outline: none;
+    padding-left: 20px;
+}
+
+input:focus {
+    background-color: white;
+    width: 150px;
+}
+
+.it1 {
+    background-image: url('https://web.archive.org/web/20140419112642im_/http://images.apple.com/home/images/promo_iphone5s_2x.jpg');
+    background-size: cover;
+    background-position: 50% 0px;
+}
+
+.it2 {
+    background-image: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c_2x.jpg');
+    background-size: cover;
+    background-position: 50% 0px;
+}
+
+.it3 {
+    background-image: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years_2x.jpg');
+    background-size: cover;
+    background-position: 50% 0px;
+}
+
+.it4 {
+    background-image: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility_2x.jpg');
+    background-size: cover;
+    background-position: 50% 0px;
+}
+
+.item {
+    border: 2px solid white;   
+}
+
+.ft1 {
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ft1 ul {
+    display: flex;
+}
+
+.ft1 ul li{
+    margin: 0px 5px;
+}
+.ft1 ul li:hover{
+    margin: 0px 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ft2 {
+    font-size: 10px;
+    width: 960px;
+    margin: 0px auto;
+    padding: 12px 0px;
+}
+
+/* .srch {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top:11px;
+    left: 15px;
+} */
+
+input {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4KPGcgZmlsbC1vcGFjaXR5PSIuNSI%2BCgk8cG9seWdvbiBwb2ludHM9IjkuMjA3LDcuMTI2IDcuNzkzLDguNTQxIDExLjc5MywxMi41NDEgMTMuMjA3LDExLjEyNiIgLz4KCTxwYXRoIGQ9Ik01LjkxNywzYzEuNjA4LDAsMi45MTcsMS4zMDgsMi45MTcsMi45MTdTNy41MjUsOC44MzMsNS45MTcsOC44MzNTMyw3LjUyNSwzLDUuOTE3UzQuMzA4LDMsNS45MTcsMyBNNS45MTcsMQoJCUMzLjIwMSwxLDEsMy4yMDEsMSw1LjkxN3MyLjIwMSw0LjkxNyw0LjkxNyw0LjkxN3M0LjkxNy0yLjIwMSw0LjkxNy00LjkxN0MxMC44MzMsMy4yMDEsOC42MzIsMSw1LjkxNywxTDUuOTE3LDF6IiAvPgo8L2c%2BCjxnPgoJPHBvbHlnb24gZmlsbD0iI2ZmZiIgcG9pbnRzPSI5LjIwNyw2LjEyNiA3Ljc5Myw3LjU0MSAxMS43OTMsMTEuNTQxIDEzLjIwNywxMC4xMjYiIC8%2BCgk8cGF0aCBmaWxsPSIjZmZmIiBkPSJNNS45MTcsMmMxLjYwOCwwLDIuOTE3LDEuMzA4LDIuOTE3LDIuOTE3UzcuNTI1LDcuODMzLDUuOTE3LDcuODMzUzMsNi41MjUsMyw0LjkxN1M0LjMwOCwyLDUuOTE3LDIKCQkgTTUuOTE3LDBDMy4yMDEsMCwxLDIuMjAxLDEsNC45MTdzMi4yMDEsNC45MTcsNC45MTcsNC45MTdzNC45MTctMi4yMDEsNC45MTctNC45MTdDMTAuODMzLDIuMjAxLDguNjMyLDAsNS45MTcsMEw1LjkxNywweiIgLz4KPC9nPgo8L3N2Zz4K');
+    transition: width 1s;
+    background-position: 3px 2px;
+}
+
+input:focus {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4KPGc%2BCgk8cG9seWdvbiBmaWxsPSIjNjY2IiBwb2ludHM9IjkuMjA3LDYuMTI2IDcuNzkzLDcuNTQxIDExLjc5MywxMS41NDEgMTMuMjA3LDEwLjEyNiIgLz4KCTxwYXRoIGZpbGw9IiM2NjYiIGQ9Ik01LjkxNywyYzEuNjA4LDAsMi45MTcsMS4zMDgsMi45MTcsMi45MTdTNy41MjUsNy44MzMsNS45MTcsNy44MzNTMyw2LjUyNSwzLDQuOTE3UzQuMzA4LDIsNS45MTcsMgoJCSBNNS45MTcsMEMzLjIwMSwwLDEsMi4yMDEsMSw0LjkxN3MyLjIwMSw0LjkxNyw0LjkxNyw0LjkxN3M0LjkxNy0yLjIwMSw0LjkxNy00LjkxN0MxMC44MzMsMi4yMDEsOC42MzIsMCw1LjkxNywwTDUuOTE3LDB6IiAvPgo8L2c%2BCjwvc3ZnPgo%3D');
+
+    background-position: 3px 2px;
+}
+
